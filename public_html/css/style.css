@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&display=swap');
+
+
+/*
+
+font-family: 'Jost', sans-serif;
+
+*/
+
+body {
+    font-family: 'Jost', sans-serif; 
+    font-size: 14px;
+}
+img {
+    max-width: 100%;
+}
+
+
+/*Header*/
+
+.navbar-toggler span {
+    content: '';
+    width: 30px;
+    height: 2px;
+    margin-bottom: 5px;
+    background: #878787;
+    display: block;
+}
+.navbar-toggler span:last-of-type {
+    margin-bottom: 0;
+}
+.nav-item .nav-link {
+    color: #878787;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.nav-item .dropdown-toggle {
+    margin-left: 0;
+}
+.dropdown-menu .dropdown-item {
+    color: #878787;
+    margin-bottom: 15px;
+}
+.buying-icons {
+    font-size: 20px;
+}
+.dropdown-menu .dropdown-item:hover {
+    background: none;
+    color: #f193a8;
+}
+
+/*Image section*/
+
+.main-image img {
+    width: 100%;
+}
+/*Products section*/
+
+.carousel-item .img1 {
+    transition: all 2s ease; 
+}
+.carousel-item .img1:hover {
+    content: url(images/bombkini.jpg);
+}
+.carousel-item .img2:hover {
+    content: url(images/afters.jpg);
+    width: 100%;
+}
+.carousel-item .img3:hover {
+    content: url(images/6am.jpg);
+    width: 100%;
+}
+.carousel-item .img4:hover {
+    content: url(images/stomakliya.jpg);
+    width: 100%;
+}
+
+/*Back Image Section*/
+
+.back-image img {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*Footer*/
+
+footer a {
+    color: #878787;
+}
+footer input {
+   padding: 8px 16px; 
+   border: 1px solid #878787 !important;
+   margin-right: 5px;
+}
+footer button {
+  padding: 10px 14px;  
+  border: none;
+  background-color: #f193a8;
+  color: white;
+}
+.payments img {
+    max-width: 40px;
+}
+.navigation-footer a:hover {
+    color: #f193a8;
+}

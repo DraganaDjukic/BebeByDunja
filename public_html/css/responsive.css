@@ -1,0 +1,56 @@
+
+@media (min-width: 320px) {
+    
+    .payments img {
+        margin-left: 10px;
+        max-width: 35px;
+    }
+}
+
+@media (min-width: 576px) {
+    .payments img {
+        max-width: 40px;
+    }
+}
+
+
+@media (min-width: 768px) {
+
+    /*Footer*/
+
+    footer input {
+        padding: 8px 0px; 
+    }
+
+    footer button {
+        padding: 5px 8px;
+        position: relative;
+        left: 110px;
+        bottom: 35px;
+    }
+    
+}
+
+
+@media (min-width: 992px) {
+    
+    /*Footer*/
+    footer button {
+        padding: 10px 15px;
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    .payments img {
+        max-width: 48px;
+    }
+}
+
+
+@media (min-width: 1200px) {
+
+    .container {
+        max-width: 1180px;
+    }
+}
